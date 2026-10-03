@@ -1,4 +1,4 @@
-# Brief — Piedra Viva
+# Piedra Viva
 
 > Guía: [Brief](../evaluacion/guias/fase-1-requerimientos/01-brief.md)
 
@@ -27,8 +27,7 @@ Piedra Viva es un emprendimiento enfocado en la construcción y terminación esp
 | Marca | Qué hace bien |
 |---|---|
 | Baldosas Córdoba | **Referente en Servicio e Instalación:** Muestra de forma impecable el proceso técnico y los resultados del trabajo artesanal de instalación, rebaje y pulido de baldosas. Transmite alta confianza al exhibir pisos terminados con acabados brillantes/espejo y restauración de pavimentos tradicionales. |
-
-| Maestro Baldosero / Pymes Técnicas | **Referente en Venta Directa y Cotización Ligera:** Muestra la efectividad de la atención personalizada a través de redes sociales (Instagram/LinkedIn) y WhatsApp, vendiendo la solución completa de mano de obra experta + suministro en un solo contacto. ([Ver sitio referente](../../sitio%20rick/index.html)) |
+| Maestro Baldosero | **Referente en Servicio e Instalación:** Muestra de forma impecable el proceso técnico y los resultados del trabajo artesanal de instalación, rebaje y pulido de baldosas. Transmite alta confianza al exhibir pisos terminados con acabados brillantes/espejo y restauración de pavimentos tradicionales. |
 
 
 
