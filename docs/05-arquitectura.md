@@ -1,4 +1,4 @@
-# Arquitectura de la información — [Nombre del emprendimiento]
+# Arquitectura de la información — Piedra Viva
 
 > Guía: [Arquitectura de la información](../evaluacion/guias/fase-1-requerimientos/05-arquitectura.md)
 
@@ -16,7 +16,12 @@ Inicio (landing)
 ├── Políticas de Privacidad
 └── 404 (Página no encontrada) 
 
+## User flows
+
+> Guía: [User flow](../evaluacion/guias/fase-1-requerimientos/06-user-flow.md)
+
 ### Flujo 1: compra
+
 Instagram (Post sobre proyecto de departamento con baldosas Budnik pulidas)
 → Inicio (landing)
 → [Clic en "Ver Catálogo y Cotizar"]
@@ -30,10 +35,9 @@ Instagram (Post sobre proyecto de departamento con baldosas Budnik pulidas)
 → Carrito
 → [Calcula el costo total del proyecto ingresando su comuna]
 → Fin: Carrito listo para enviar cotización o pagar
-## User flows
-
 
 ### Flujo 2: contenido
+
 Google ("cómo vitrificar y mantener baldosas micro vibradas")
 → Artículo del blog ("Guía técnica para el cuidado y vitrificado de baldosas")
 → [Lee la guía y hace clic en la baldosa recomendada dentro del artículo]

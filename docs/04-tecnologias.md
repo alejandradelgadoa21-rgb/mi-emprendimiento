@@ -1,4 +1,4 @@
-# Tecnologías del proyecto — [Nombre del emprendimiento]
+# Tecnologías del proyecto — Piedra Viva
 
 > Guía: [Tecnologías del proyecto](../evaluacion/guias/fase-1-requerimientos/04-tecnologias.md)
 
@@ -18,8 +18,8 @@
 
 | Funcionalidad | Estado en esta versión |
 |---|---|
-| | Funcional / Prototipo visual |
 | Navegación entre secciones (Landing, Blog, Tienda) | Funcional |
+
 | Formulario de cotización e integración a WhatsApp | Funcional |
 | Filtro y búsqueda de productos por categoría/uso | Funcional |
 | Calculadora de presupuesto e ingreso de metros cuadrados | Prototipo visual |

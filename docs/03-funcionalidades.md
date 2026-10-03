@@ -1,10 +1,11 @@
-# Objetivos del usuario y funcionalidades — [Nombre del emprendimiento]
+# Objetivos del usuario y funcionalidades — Piedra Viva
 
 > Guía: [Objetivos del usuario y funcionalidades](../evaluacion/guias/fase-1-requerimientos/03-funcionalidades.md)
 
 ## Objetivos de la proto-persona en el sitio
 
-<!-Al ingresar al sitio, Renata busca obtener un presupuesto integral y transparente de forma rápida para no perder tiempo coordinando compras e instalación por separado, asegurando al mismo tiempo que las baldosas Budnik cumplan con las especificaciones técnicas de tráfico y acabado de su obra. Asimismo, quiere confirmar la disponibilidad inmediata del stock para resguardar la carta Gantt de su proyecto y contar con un canal directo de asesoría experta donde delegar consultas complejas mediante el envío de planos o fotos.
+Al ingresar al sitio, Renata busca obtener un presupuesto integral y transparente de forma rápida para no perder tiempo coordinando compras e instalación por separado, asegurando al mismo tiempo que las baldosas Budnik cumplan con las especificaciones técnicas de tráfico y acabado de su obra. Asimismo, quiere confirmar la disponibilidad inmediata del stock para resguardar la carta Gantt de su proyecto y contar con un canal directo de asesoría experta donde delegar consultas complejas mediante el envío de planos o fotos.
+
 
 1.Obtener un presupuesto integral en un solo paso
 
