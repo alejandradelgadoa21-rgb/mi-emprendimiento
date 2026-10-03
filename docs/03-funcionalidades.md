@@ -42,15 +42,15 @@ Funcionalidad: El usuario debe poder adjuntar planos o fotografías de su espaci
 
 | Proto-persona | Objetivo | Funcionalidad | Tipo | Prioridad |
 |---|---|---|---|---|
-| | | El usuario debe poder dejar sus datos para... | Base (landing) | |
-| | | El usuario debe poder navegar los artículos por categoría... | Base (blog) | |
-| | | El usuario debe poder comentar un artículo | Base (blog) | |
-| | | El usuario debe poder compartir un artículo en... | Base (blog) | |
-| | | El usuario debe poder buscar productos por... | Base (tienda) | |
-| | | El usuario debe poder filtrar productos por... | Base (tienda) | |
-| | | El usuario debe poder ver el detalle de un producto, elegir... y agregarlo al carrito | Base (tienda) | |
-| | | | Propia | |
-| | | | Propia | |
-| | | | Propia | |
-| | | | Propia | |
-| | | | Propia | |
+| Renata | Cotizar una solución completa en un solo paso | El usuario debe poder dejar sus datos para recibir una propuesta integral (material + instalación + pulido) | Base (landing) | Imprescindible |
+| Renata | Consultar guías según la tipología de su proyecto | El usuario debe poder navegar los artículos por categoría (interiores, exteriores, alto tráfico, restauración) | Base (blog) | Imprescindible |
+| Renata | Resolver dudas técnicas específicas | El usuario debe poder comentar un artículo | Base (blog) | Deseable |
+| Renata | Recomendar artículos o guías técnicas a clientes | El usuario debe poder compartir un artículo en sus redes y WhatsApp | Base (blog) | Deseable |
+| Renata | Encontrar un producto o complemento específico | El usuario debe poder buscar productos por nombre, tipo de acabado o complemento | Base (tienda) | Imprescindible |
+| Renata | Seleccionar la baldosa adecuada para la obra | El usuario debe poder filtrar productos por categoría, uso y resistencia al tráfico | Base (tienda) | Imprescindible |
+| Renata | Definir y comprar el volumen de material necesario | El usuario debe poder ver el detalle de un producto, elegir variante, calcular metros cuadrados y agregarlo al carrito | Base (tienda) | Imprescindible |
+| Renata | Cotizar una solución completa en un solo paso | El usuario debe poder calcular un costo estimado del servicio completo (material Budnik + mano de obra de instalación y pulido) en un solo lugar antes de enviar su solicitud. | Propia | Imprescindible |
+| Renata | Agendamiento de fecha de obra | El usuario debe poder agendar una fecha tentativa de inicio para los trabajos de instalación al momento de confirmar el pedido de baldosas. | Propia | Imprescindible |
+| Renata | Solicitud de muestras físicas | El usuario debe poder solicitar un kit de muestras físicas de baldosas a domicilio para validar tonos, textura y calidad en terreno. | Propia | Deseable |
+| Renata | Verificación de stock en tiempo real | El usuario debe poder verificar la disponibilidad inmediata de stock del modelo seleccionado para evitar desfases en los tiempos de su obra. | Propia | Imprescindible |
+| Renata | Asesoría técnica con archivos adjuntos | El usuario debe poder adjuntar planos de arquitectura o fotografías del piso actual para solicitar una evaluación técnica directa de los especialistas. | Propia | Deseable |
