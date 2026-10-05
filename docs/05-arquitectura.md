@@ -4,6 +4,7 @@
 
 ## Mapa de sitio
 
+```text
 Inicio (landing)
 ├── Tienda
 │   ├── Ficha de producto
@@ -14,7 +15,8 @@ Inicio (landing)
 ├── Preguntas Frecuentes
 ├── Términos y Condiciones
 ├── Políticas de Privacidad
-└── 404 (Página no encontrada) 
+└── 404 (Página no encontrada)
+```
 
 ## User flows
 
