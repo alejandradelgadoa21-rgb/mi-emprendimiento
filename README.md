@@ -1,7 +1,7 @@
-# [Nombre del emprendimiento] — Sitio web
+# Piedra Viva — Sitio web
 
-[Descripción del emprendimiento en una o dos líneas.]
-Incluye landing, blog y prototipo de tienda online.
+Tienda online, blog y servicios para instalación de baldosas Budnik.
+
 
 > Proyecto de la **Evaluación Parcial 02 — Sitios Web y Landing Pages (DUOC)**.
 > Instrucciones y guías: [evaluacion/](evaluacion/README.md)
@@ -31,8 +31,8 @@ Incluye landing, blog y prototipo de tienda online.
 
 ## Prototipo
 
-[Aquí va el link de tu proyecto de Stitch en la Fase 3]
+[Aquí va el link de tu proyecto de Stitch en la Fase 3.
 
 ## Uso de IA
 
-- **[Herramienta]:** para qué la usé y qué ajusté yo.
+- **[Gemini]:** La use para buscar lo que no entendia, para redactar mejor mis ideas en los documentos.
