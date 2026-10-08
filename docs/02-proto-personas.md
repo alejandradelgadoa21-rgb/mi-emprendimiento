@@ -4,11 +4,11 @@
 
 ## Proto-persona principal
 
-<!-- Imagen: guárdala en docs/img/ y enlázala así: ![Avatar](img/Arquitecta 40 años.png) -->
+![Renata - 40 años](img/Renata%2040%20años.png)
 
-**[Renata], [40] años.** [Arquitecta/Diseñadora de Interiores].
+**Renata, 40 años.** Arquitecta / Diseñadora de Interiores.
 
-> "[Busco comprar y renovar mi piso en un solo paso, rápido y bien hecho.]"
+> "Busco comprar y renovar mi piso en un solo paso, rápido y bien hecho."
 
 ### Comportamientos
 
