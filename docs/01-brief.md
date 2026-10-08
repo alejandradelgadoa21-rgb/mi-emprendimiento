@@ -4,7 +4,7 @@
 
 ## El emprendimiento
 
-Piedra Viva es un emprendimiento enfocado en la construcción y terminación especializado en el servicio profesional de instalación y pulido de baldosas, enfocado en terminaciones de alta calidad y durabilidad. Complementamos nuestro servicio con la venta y distribución directa de baldosas Budnik (micro vibradas, rústicas y de exterior) y guardapolvos. Gestionamos la atención y cotización de proyectos 100% online a través de WhatsApp, Instagram y correo electrónico.
+Piedra Viva es un emprendimiento ficticio, enfocado en la construcción y terminación especializado en el servicio profesional de instalación y pulido de baldosas, enfocado en terminaciones de alta calidad y durabilidad. Complementamos nuestro servicio con la venta y distribución directa de baldosas Budnik (micro vibradas, rústicas y de exterior) y guardapolvos. Gestionamos la atención y cotización de proyectos 100% online a través de WhatsApp, Instagram y correo electrónico.
 
 ## Propuesta de valor
 
