@@ -2,68 +2,123 @@
 
 > Guía: [Arquitectura de la información](../evaluacion/guias/fase-1-requerimientos/05-arquitectura.md)
 
-## Mapa de sitio
+## 1) Mapa de sitio (jerárquico y completo)
 
 ```text
-Inicio (landing)
+Inicio (Landing)
 ├── Tienda
-│   ├── Ficha de producto
-│   └── Carrito
+│   ├── Listado / Catálogo (filtro y búsqueda)
+│   │   └── Ficha de producto
+│   │       └── Ficha + Cotizar (CTA a agregar al carrito)
+│   └── Carrito / Resumen
 ├── Blog
-│   └── Artículo del blog
-├── Contacto
+│   └── Artículo del blog (con links a productos recomendados)
+├── Contacto (o Cotizar / Solicitar información)
 ├── Preguntas Frecuentes
 ├── Términos y Condiciones
 ├── Políticas de Privacidad
 └── 404 (Página no encontrada)
-```
 
 ## User flows
 
 > Guía: [User flow](../evaluacion/guias/fase-1-requerimientos/06-user-flow.md)
 
 ### Flujo 1: compra
+Escenario inicial:
+Instagram (post / anuncio) sobre departamento con baldosas Budnik pulidas
+   ↓ (acción)
+[Clic: "Ver Catálogo y Cotizar"]
+   ↓ (navegación)
+[Landing]
+   ↓ (acción)
+[Clic: "Ir a Tienda"]
+   ↓
+[Tienda / Catálogo]
+   ↓ (acción)
+[Filtra / selecciona: Uso = Interior, Tráfico = Alto]
+   ↓
+[Lista de resultados]
+   ↓ (decisión)
+¿Encuentra producto recomendado?
+   ├─ Sí →
+   │   ↓ (acción)
+   │   [Abre Ficha de producto]
+   │   ↓
+   │   [Ficha de producto: Micro Vibrada Modelo A]
+   │   ↓ (acción)
+   │   [Ingresa m²]
+   │   ↓ (acción)
+   │   [Selecciona servicio: Instalación + Pulido]
+   │   ↓
+   │   [CTA: "Consultar a un especialista por WhatsApp" (si tiene dudas)]
+   │   ↓ (decisión)
+   │   ¿Tiene dudas con la nivelación del piso?
+   │      ├─ Sí → [WhatsApp] → (conversación/consulta)
+   │      └─ No → [CTA: "Agregar al carrito"]
+   │
+   └─ No →
+       ↓ (acción)
+       [Vuelve a filtros / busca por otro uso o tráfico]
+       ↓
+       (repite búsqueda hasta encontrar)
 
-Instagram (Post sobre proyecto de departamento con baldosas Budnik pulidas)
-→ Inicio (landing)
-→ [Clic en "Ver Catálogo y Cotizar"]
-→ Tienda
-→ [Filtra por "Uso: Interior" y "Tráfico: Alto"]
-→ Ficha de producto (Baldosa Micro Vibrada Modelo A)
-→ [Ingresa m2 necesarios y selecciona servicio de "Instalación + Pulido"]
-◇ ¿Tiene dudas con la nivelación del piso actual?
-    ├── Sí → [Clic en "Consultar a un especialista por WhatsApp"] → WhatsApp
-    └── No → [Clic en "Agregar al carrito"]
-→ Carrito
-→ [Calcula el costo total del proyecto ingresando su comuna]
-→ Fin: Carrito listo para enviar cotización o pagar
+   ↓ (acción)
+[Carrito]
+   ↓ (acción)
+[Calcula costo total del proyecto ingresando comuna]
+   ↓
+[CTA final]
+   ├─ "Enviar cotización / WhatsApp"  (si aplica en tu UI)
+   └─ "Pagar" (si solo es prototipo visual)
+   ↓
+Fin: Cotización lista para enviar (o simulación de pago)
+
 
 ### Flujo 2: contenido
+Escenario inicial:
+Google (búsqueda: "cómo vitrificar y mantener baldosas micro vibradas")
+   ↓ (navegación)
+[Blog → Artículo: Guía técnica para cuidado y vitrificado]
+   ↓ (acción)
+[Clic en baldosa recomendada dentro del artículo]
+   ↓
+[Ficha de producto: Baldosa Rústica de Exterior]
+   ↓ (decisión)
+¿Desea solicitar cotización en el momento?
+   ├─ Sí →
+   │   ↓ (acción)
+   │   [Ingresa m²]
+   │   ↓
+   │   [CTA: "Agregar al carrito"]
+   │   ↓
+   │   [Carrito]
+   │   ↓
+   │   Fin: cotización lista / flujo de envío
+   │
+   └─ No →
+       ↓ (acción)
+       [Deja sus datos en formulario del blog/landing para recibir catálogo PDF]
+       ↓
+       Fin: Lead captado
 
-Google ("cómo vitrificar y mantener baldosas micro vibradas")
-→ Artículo del blog ("Guía técnica para el cuidado y vitrificado de baldosas")
-→ [Lee la guía y hace clic en la baldosa recomendada dentro del artículo]
-→ Ficha de producto (Baldosa Rústica de Exterior)
-◇ ¿Desea solicitar cotización en el momento?
-    ├── Sí → [Selecciona los metros cuadrados y hace clic en "Agregar al carrito"] → Carrito
-    └── No → [Vuelve al formulario del Blog/Landing y deja sus datos para recibir catálogo PDF]
-          → Fin: Lead captado
-## Categorías
 
-> Guía: [Categorías de productos y temas del blog](../evaluacion/guias/fase-1-requerimientos/07-categorias.md)
+Descuento aplicado según formato del pedido:
 
-### Categorías de productos
-| Categoría | Productos |
-|---|---|
-| Baldosas Micro Vibradas | Baldosa Lisa Tradicional, Baldosa Texturada Interior |
-| Baldosas Rústicas y Exterior | Baldosa Rústica Antideslizante, Grano Lavado Exterior |
-| Complementos y Terminaciones | Guardapolvos Budnik, Sellador y Vitrificante |
+Decisión: ¿Qué formato compra el cliente?
+   ├─ Formato A (por ejemplo: caja / menor volumen)
+   │    → Descuento: X%
+   │    → Se aplica al subtotal del producto
+   │
+   ├─ Formato B (por ejemplo: pack / mediano volumen)
+   │    → Descuento: Y%
+   │    → Se aplica al subtotal del producto
+   │
+   └─ Formato C (por ejemplo: mayor volumen / proyecto)
+        → Descuento: Z%
+        → Se aplica al subtotal del producto
 
-### Categorías del blog
+(La lógica queda definida en tu calculadora del carrito/prototipo)
 
-| Categoría | Idea de artículo | Necesidad o motivación de la proto-persona | Producto relacionado |
-|---|---|---|---|
-| Instalación y Técnica | Pasos clave para una correcta instalación y fraguado de baldosas | Asegurar que la mano de obra cumpla con estándares técnicos de durabilidad | Baldosas Micro Vibradas |
-| Pulido y Restauración | Guía técnica para el pulido profundo y vitrificado espejo | Lograr acabados de alto nivel estético que valoricen sus proyectos | Selladores y Vitrificantes |
-| Especificación y Tráfico | Cómo elegir la baldosa según la resistencia al tráfico comercial | Validar fichas técnicas para recomendar el material correcto a sus clientes | Baldosas Rústicas y Exterior |
+---
+
 
