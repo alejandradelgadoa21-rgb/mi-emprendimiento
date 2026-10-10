@@ -2,58 +2,53 @@
 
 > Guía: [Objetivos del usuario y funcionalidades](../evaluacion/guias/fase-1-requerimientos/03-funcionalidades.md)
 
-## Objetivos de la proto-persona en el sitio
 
-Al ingresar al sitio, Renata busca obtener un presupuesto integral y transparente de forma rápida para no perder tiempo coordinando compras e instalación por separado, asegurando al mismo tiempo que las baldosas Budnik cumplan con las especificaciones técnicas de tráfico y acabado de su obra. Asimismo, quiere confirmar la disponibilidad inmediata del stock para resguardar la carta Gantt de su proyecto y contar con un canal directo de asesoría experta donde delegar consultas complejas mediante el envío de planos o fotos.
+## Objetivos de la Proto-persona (Renata) en el Sitio
 
+Al ingresar al sitio web de **Piedra Viva**, Renata busca resolver de forma rápida e integral la compra e instalación de baldosas Budnik para sus proyectos arquitectónicos. Sus metas principales son:
 
-1. Obtener un presupuesto integral en un solo paso
+1. **Cotizar de forma integral y rápida:** Obtener un presupuesto centralizado que combine el suministro de baldosas Budnik con la mano de obra de instalación y pulido.
+2. **Validar especificaciones técnicas y estética:** Consultar fichas técnicas y guías de uso para asegurar la resistencia al tráfico y acabado idóneo según la obra (interior/exterior).
+3. **Resguardar la carta Gantt de la obra:** Verificar stock disponible en tiempo real y agendar fechas preliminares de instalación para cumplir con sus plazos de entrega.
+4. **Recibir asesoría especializada sin intermediarios:** Resolver dudas de alta complejidad técnica comentando artículos o adjuntando planos y fotografías de la obra.
 
-Funcionalidad: El usuario debe poder ingresar los datos y metros cuadrados de su proyecto para calcular y recibir una cotización integral que combine el material Budnik con el servicio de instalación y pulido en una sola propuesta.
+---
 
-2. Validar la calidad técnica y la estética del material
+## Listado de Funcionalidades
 
-Funcionalidad: El usuario debe poder consultar y descargar las especificaciones técnicas (resistencia al tráfico, uso en interior/exterior y tipo de acabado) de cada modelo de baldosa.
+### Funcionalidades Base (7)
 
-3. Asegurar los plazos de entrega de su obra
+1. **Landing (Captación de leads):** Formulario para ingresar datos de contacto (nombre, WhatsApp, email), m² y comuna para solicitar una cotización integral (material Budnik + instalación + pulido).
+2. **Blog (Categorías técnicas):** Navegación de artículos filtrados por uso técnico (pisos interiores, exteriores, alto tráfico, restauración y vitrificado).
+3. **Blog (Comentarios):** Sección de comentarios en artículos para resolver dudas sobre procesos de fraguado, nivelación o mantención con especialistas.
+4. **Blog (Compartir):** Botones para compartir guías técnicas y artículos vía WhatsApp y correo electrónico con clientes o equipos de trabajo.
+5. **E-commerce (Búsqueda):** Motor de búsqueda por nombre de modelo, tipo de acabado o complemento (ej. "micro vibrada", "rústica", "guardapolvo").
+6. **E-commerce (Filtros):** Filtros dinámicos según tipo de producto (baldosas, guardapolvos), uso (interior/exterior) y resistencia al tráfico (residencial, comercial).
+7. **E-commerce (Ficha de Producto y Carrito):** Ficha técnica detallada con selección de variante (formato/color), calculadora de metros cuadrados y botón para agregar al carro de compras.
 
-Funcionalidad: El usuario debe poder verificar la disponibilidad de stock en tiempo real y agendar una fecha tentativa para el inicio de la instalación al realizar su pedido.
+### Funcionalidades Propias - Piedra Viva (5)
 
-4. Resolver dudas complejas sin intermediarios
+1. **Calculadora de Proyecto Integral (Propia 1):** Herramienta interactiva para simular el costo estimado del servicio completo (material Budnik + mano de obra de instalación y pulido) antes de enviar la solicitud formal.
+2. **Agendamiento de Fecha de Obra (Propia 2):** Calendario interactivo para agendar una fecha tentativa de inicio de instalación al momento de confirmar el pedido de baldosas.
+3. **Solicitud de Muestras Físicas (Propia 3):** Módulo para solicitar a domicilio un kit de muestras de baldosas para evaluar tonos y texturas en terreno.
+4. **Verificación de Stock en Tiempo Real (Propia 4):** Indicador en vivo de la disponibilidad de stock por modelo para evitar desfases en los tiempos de la obra.
+5. **Asesoría Técnica con Archivos Adjuntos (Propia 5):** Formulario directo que permite adjuntar planos de arquitectura (PDF/CAD) o fotografías del estado actual del piso para recibir una evaluación experta.
 
-Funcionalidad: El usuario debe poder adjuntar planos o fotografías de su espacio para recibir asesoría técnica personalizada de un especialista a través de un canal directo.
+---
 
-## Funcionalidades
+## Matriz de Requerimientos (Proto-persona / Objetivo / Funcionalidad)
 
-1. Landing (Captación de leads): El usuario debe poder ingresar sus datos de contacto (nombre, WhatsApp, email) junto con los metros cuadrados y comuna de su obra para recibir una cotización integral rápida (material Budnik + instalación + pulido).
-2. Blog (Categorías): El usuario debe poder navegar los artículos por categorías técnicas y de uso (pisos interiores, exteriores, alto tráfico, restauración y vitrificado).
-3. Blog (Comentarios): El usuario debe poder comentar los artículos del blog para consultar dudas específicas sobre procesos de fraguado, nivelación o mantención con el equipo especialista.
-4. Blog (Compartir): El usuario debe poder compartir un artículo técnico o guía de mantención a través de WhatsApp y correo electrónico con sus clientes o equipo de trabajo.
-5. E-commerce (Búsqueda): El usuario debe poder buscar productos en la tienda por nombre del modelo, tipo de acabado o complemento ("micro vibrada", "rústica", "guardapolvo").
-6. E-commerce (Filtros): El usuario debe poder filtrar los productos según el tipo de producto (baldosas, guardapolvos), uso del espacio (interior/exterior) y resistencia al tráfico (residencial, comercial).
-7. E-commerce (Selección): El usuario debe poder ver la ficha técnica detallada del producto, seleccionar las variantes de formato/color, indicar los metros cuadrados necesarios y agregarlo al carro de compras.
-
-### 5 Funcionalidades Propias (Piedra Viva)
-
-1. Calculadora de Proyecto Integral (Propia 1): El usuario debe poder calcular un costo estimado del servicio completo (material Budnik + mano de obra de instalación y pulido) en un solo lugar antes de enviar su solicitud.
-2. Agendamiento de Fecha de Obra (Propia 2): El usuario debe poder agendar una fecha tentativa de inicio para los trabajos de instalación al momento de confirmar el pedido de baldosas.
-3. Solicitud de Muestras Físicas (Propia 4): El usuario debe poder solicitar un kit de muestras físicas de baldosas a domicilio para validar tonos, textura y calidad en terreno.
-4. Verificación de Stock en Tiempo Real (Propia 5): El usuario debe poder verificar la disponibilidad inmediata de stock del modelo seleccionado para evitar desfases en los tiempos de su obra.
-5. Asesoría Técnica con Archivos Adjuntos (Propia 7): El usuario debe poder adjuntar planos de arquitectura o fotografías del piso actual para solicitar una evaluación técnica directa de los especialistas.
- 
-
-
-| Proto-persona | Objetivo | Funcionalidad | Tipo | Prioridad |
+| Proto-persona | Objetivo del Usuario | Funcionalidad del Sistema | Tipo | Prioridad |
 |---|---|---|---|---|
-| Renata | Cotizar una solución completa en un solo paso | El usuario debe poder dejar sus datos para recibir una propuesta integral (material + instalación + pulido) | Base (landing) | Imprescindible |
-| Renata | Consultar guías según la tipología de su proyecto | El usuario debe poder navegar los artículos por categoría (interiores, exteriores, alto tráfico, restauración) | Base (blog) | Imprescindible |
-| Renata | Resolver dudas técnicas específicas | El usuario debe poder comentar un artículo | Base (blog) | Deseable |
-| Renata | Recomendar artículos o guías técnicas a clientes | El usuario debe poder compartir un artículo en sus redes y WhatsApp | Base (blog) | Deseable |
-| Renata | Encontrar un producto o complemento específico | El usuario debe poder buscar productos por nombre, tipo de acabado o complemento | Base (tienda) | Imprescindible |
-| Renata | Seleccionar la baldosa adecuada para la obra | El usuario debe poder filtrar productos por categoría, uso y resistencia al tráfico | Base (tienda) | Imprescindible |
-| Renata | Definir y comprar el volumen de material necesario | El usuario debe poder ver el detalle de un producto, elegir variante, calcular metros cuadrados y agregarlo al carrito | Base (tienda) | Imprescindible |
-| Renata | Cotizar una solución completa en un solo paso | El usuario debe poder calcular un costo estimado del servicio completo (material Budnik + mano de obra de instalación y pulido) en un solo lugar antes de enviar su solicitud. | Propia | Imprescindible |
-| Renata | Agendamiento de fecha de obra | El usuario debe poder agendar una fecha tentativa de inicio para los trabajos de instalación al momento de confirmar el pedido de baldosas. | Propia | Imprescindible |
-| Renata | Solicitud de muestras físicas | El usuario debe poder solicitar un kit de muestras físicas de baldosas a domicilio para validar tonos, textura y calidad en terreno. | Propia | Deseable |
-| Renata | Verificación de stock en tiempo real | El usuario debe poder verificar la disponibilidad inmediata de stock del modelo seleccionado para evitar desfases en los tiempos de su obra. | Propia | Imprescindible |
-| Renata | Asesoría técnica con archivos adjuntos | El usuario debe poder adjuntar planos de arquitectura o fotografías del piso actual para solicitar una evaluación técnica directa de los especialistas. | Propia | Deseable |
+| Renata | Obtener un presupuesto unificado rápido sin coordinar proveedores por separado | Formulario de cotización integral en Landing (datos, m² y comuna para propuesta de material + instalación + pulido) | Base (Landing) | Imprescindible |
+| Renata | Consultar guías y normativas según la tipología de su proyecto | Navegación de artículos por categorías técnicas (interiores, exteriores, alto tráfico, restauración) | Base (Blog) | Imprescindible |
+| Renata | Resolver dudas técnicas específicas sobre procesos de obra | Sistema de comentarios en artículos del blog para consultas directas al equipo técnico | Base (Blog) | Deseable |
+| Renata | Enviar especificaciones y guías de mantención a clientes o técnicos de obra | Funcionalidad para compartir artículos por WhatsApp y correo electrónico | Base (Blog) | Deseable |
+| Renata | Localizar rápidamente un modelo de baldosa o complemento específico | Buscador predictivo por nombre de modelo, tipo de acabado o complemento | Base (Tienda) | Imprescindible |
+| Renata | Seleccionar el material adecuado según exigencias de tráfico y ubicación | Filtros de catálogo por tipo de producto, uso (interior/exterior) y resistencia al tráfico | Base (Tienda) | Imprescindible |
+| Renata | Verificar ficha técnica, calcular volumen y armar pedido de material | Ficha técnica detallada, selector de variantes, calculador de m² y carrito de compras | Base (Tienda) | Imprescindible |
+| Renata | Estimar el presupuesto total del proyecto antes de realizar la solicitud final | Calculadora interactiva de costo estimado del servicio completo (material + mano de obra) | Propia (Propia 1) | Imprescindible |
+| Renata | Reservar la fecha de inicio de trabajos para resguardar la carta Gantt de la obra | Módulo de agendamiento de fecha tentativa de inicio de obra al confirmar el pedido | Propia (Propia 2) | Imprescindible |
+| Renata | Validar calidad, tono y textura del material físicamente en terreno | Módulo de solicitud a domicilio de kit de muestras físicas de baldosas | Propia (Propia 3) | Deseable |
+| Renata | Confirmar disponibilidad inmediata del material para evitar retrasos | Indicador de verificación de disponibilidad de stock en tiempo real | Propia (Propia 4) | Imprescindible |
+| Renata | Obtener recomendación experta enviando documentación o fotografías del espacio | Formulario de asesoría técnica personalizada con opción de adjuntar planos o fotos | Propia (Propia 5) | Deseable |
