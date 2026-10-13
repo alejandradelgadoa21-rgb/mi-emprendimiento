@@ -5,7 +5,6 @@
 **Tablero en Whimsical:** [https://whimsical.com/alejandra82/mi-moodboard-JnQcL4AimPEMDqCA5r2xeA](https://whimsical.com/alejandra82/mi-moodboard-JnQcL4AimPEMDqCA5r2xeA)
 
 ![Componentes calcados de Piedra Viva](img/componentes.png)
-
 ## Tabla de Componentes
 
 | Componente | Referencia (Collage) | Qué contiene | Qué necesidad de Renata resuelve |
