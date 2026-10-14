@@ -1,138 +1,101 @@
-# spec-de-diseno — Piedra Viva
+# Spec de Diseño — Piedra Viva
 
-> Guía: spec-diseno(../evaluacion/guias/fase-2-specs/06-spec-de-diseno.md)
-> wireframes: [whimsical](https://whimsical.com/D9Vd9M9G6Kk8N7T5J4V2a)
+> Guía: [spec-diseno](../evaluacion/guias/fase-2-specs/06-spec-de-diseno.md)
+> Wireframes: [Whimsical](https://whimsical.com/D9Vd9M9G6Kk8N7T5J4V2a)
 
-## especificaciones de diseño
-
-version: alpha
-name: Piedra Viva
-colors:
-  primary: "#989B85"
-  primary-hover: "#838670"
-  on-primary: "#2B2B28"
-  secondary: "#EDC3A0"
-  on-secondary: "#2B2B28"
-  tertiary: "#C48A54"
-  tertiary-hover: "#B07945"
-  on-tertiary: "#FFFFFF"
-  quaternary: "#F0A5A8"
-  neutral: "#FBF1EA"
-  surface: "#FFFFFF"
-  on-surface: "#2B2B28"
-  on-surface-muted: "#60605C"
-  success: "#2F7A4A"
-  error: "#B23A2E"
-typography:
-  headline-lg:
-    fontFamily: Merriweather
-    fontSize: 40px
-    fontWeight: 700
-    lineHeight: 1.2
-  headline-md:
-    fontFamily: Merriweather
-    fontSize: 30px
-    fontWeight: 700
-    lineHeight: 1.3
-  headline-sm:
-    fontFamily: Merriweather
-    fontSize: 20px
-    fontWeight: 700
-    lineHeight: 1.4
-  body-md:
-    fontFamily: Arimo
-    fontSize: 16px
-    fontWeight: 400
-    lineHeight: 1.6
-  label-md:
-    fontFamily: Arimo
-    fontSize: 16px
-    fontWeight: 700
-    lineHeight: 1.2
-rounded:
-  sm: 4px
-  md: 8px
-  lg: 16px
-  full: 9999px
-spacing:
-  xs: 4px
-  sm: 8px
-  md: 16px
-  lg: 24px
-  xl: 32px
-components:
-  button-primary:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.on-primary}"
-    typography: "{typography.label-md}"
-    rounded: "{rounded.md}"
-    padding: 12px 24px
-  button-primary-hover:
-    backgroundColor: "{colors.primary-hover}"
-  button-secondary:
-    backgroundColor: "{colors.tertiary}"
-    textColor: "{colors.on-tertiary}"
-    typography: "{typography.label-md}"
-    rounded: "{rounded.md}"
-    padding: 12px 24px
-  button-secondary-hover:
-    backgroundColor: "{colors.tertiary-hover}"
-  card-product:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.on-surface}"
-    typography: "{typography.body-md}"
-    rounded: "{rounded.md}"
-    padding: "{spacing.md}"
 ---
 
-## Overview
+## Prompts para Generación de Pantallas (Stitch / IA)
 
-Piedra Viva es una empresa especializada en la instalación y pulido de baldosas con acabados de alta durabilidad, además de la distribución de baldosas Budnik[cite: 2, 4]. Su usuario principal es Renata, una cliente que valora la transparencia en los costos, busca evitar trabajos defectuosos y requiere terminaciones pulcras y de alta gama en sus espacios[cite: 2, 13]. La personalidad visual es sólida, natural, técnica y confiable[cite: 4, 13].
+### Prompt 1: Landing Page (Inicio) — Versión Desktop
 
-## Colors
+> **Pantalla:** Landing Page, versión Desktop. Usa el Design System del proyecto Piedra Viva (`DESIGN.md`).
+> **Objetivo:** Transmitir confianza inmediata a Renata sobre la calidad en instalación, pulido de baldosas y distribución Budnik, permitiéndole solicitar un presupuesto transparente sin sorpresas de costos.
+> **Componentes de arriba hacia abajo:**
+> 1. **Navbar:** Logo "Piedra Viva", enlaces de navegación ("Inicio", "Servicios", "Catálogo Budnik", "Galería", "Blog", "Contacto") y botón destacado "Cotizar Ahora" (`button-primary`).
+> 2. **Hero:** Título h1 "Pisos impecables que transforman tus espacios", bajada explicativa sobre instalación y pulido de baldosas de alta durabilidad, botón principal "Solicitar Cotización" (`button-primary`) e imagen destacada de piso vitrificado de alto brillo.
+> 3. **Sección de Misión y Valores:** Bloque informativo con fondo `#EDC3A0` sobre la precisión técnica y compromiso de trabajo garantizado sin cobros ocultos.
+> 4. **Galería de Proyectos Destacados:** Grilla de 3 columnas mostrando fotografías comparativas de acabados en terrazas y salones.
+> 5. **Formulario de Cotización Guiada:** Campos de entrada "Nombre", "Correo", "Teléfono", "Metros cuadrados (m²)" y selector de servicio ("Pulido de Pisos", "Instalación", "Compra de Baldosa Budnik"), con botón de envío (`button-primary`).
+> 6. **Footer:** Enlaces institucionales, garantías del servicio, contacto directo y redes sociales.
 
-- **Primary (`#989B85`):** Verde Oliva Cemento. Utilizado en acciones principales, navegación destacada y elementos gráficos centrales[cite: 4].
-- **Secondary (`#EDC3A0`):** Champán / Arcilla Clara. Utilizado para fondos de tarjetas, contenedores secundarios y bordes suaves[cite: 4].
-- **Tertiary (`#C48A54`):** Dorado Cantera. Color de acento para distintivos de garantía, botones de llamada a la acción y etiquetas[cite: 4].
-- **Neutral (`#FBF1EA`):** Marfil Baldosa. Fondo general para evitar la frialdad del blanco clínico[cite: 4].
-- **On-Surface (`#2B2B28`):** Carbón Profundo. Color para texto principal y títulos, garantizando alto contraste[cite: 4].
+---
 
-## Typography
+### Prompt 2: Tienda / Catálogo Budnik — Versión Desktop
 
-- **Títulos (Headings):** `Merriweather` (Google Fonts). Otorga elegancia, solidez y un carácter institucional refinado[cite: 4].
-- **Texto en Cuerpo y Controles (Body/Labels):** `Arimo` (Google Fonts). Otorga excelente legibilidad técnica en dispositivos móviles y de escritorio[cite: 4].
+> **Pantalla:** Tienda / Catálogo, versión Desktop. Usa el Design System del proyecto Piedra Viva (`DESIGN.md`).
+> **Objetivo:** Permitir a los clientes explorar las líneas de baldosas Budnik y filtrar por tipo de uso (interior/exterior) o acabado.
+> **Componentes de arriba hacia abajo:**
+> 1. **Navbar:** Mismo componente global de navegación.
+> 2. **Encabezado:** Título h1 "Catálogo de Baldosas Budnik" y buscador "Buscar por modelo o tipo de baldosa...".
+> 3. **Filtros por Categoría:** Botones de selección rápida (Todos, Microvibradas, Rústicas, Terrazos, Formatos Especiales).
+> 4. **Contenido Principal (Layout 2 Columnas):**
+>    - **Barra Lateral Izquierda (Filtros):** Casillas de verificación para Uso ("Interior", "Exterior", "Alto Tráfico") y rango de precios.
+>    - **Grilla Derecha (3 Columnas):** 6 tarjetas de producto (`card-product`) con foto del producto, nombre (ej: "Baldosa Microvibrada Gris 40x40"), precio por m² "$12.990", distintivo de disponibilidad y botón "Cotizar este material".
+> 5. **Footer:** Mismo componente global.
 
-## Layout
+---
 
-- **Ancho máximo de contenedor:** 1200px centrado.
-- **Breakpoints:**
-  - **Mobile:** < 768px (1 columna, navegación desplegable tipo hamburguesa).
-  - **Tablet:** 768px - 1023px (2 columnas en catálogo).
-  - **Desktop:** >= 1024px (Grilla de 3 columnas para catálogo y tarjetas).
+### Prompt 3: Ficha de Producto — Versión Desktop
 
-## Elevation & Depth
+> **Pantalla:** Ficha de Producto, versión Desktop. Usa el Design System del proyecto Piedra Viva (`DESIGN.md`).
+> **Objetivo:** Mostrar los detalles técnicos y especificaciones de la baldosa seleccionada para validar su resistencia y durabilidad.
+> **Componentes de arriba hacia abajo:**
+> 1. **Navbar:** Mismo componente global.
+> 2. **Vista de Producto (2 Columnas):**
+>    - **Columna Izquierda:** Fotografía principal de alta resolución de la baldosa "Microvibrada Rústica 40x40" y galería de miniaturas de proyectos aplicados.
+>    - **Columna Derecha:** Título h1 "Baldosa Microvibrada Rústica 40x40", precio por m² "$12.990", selector de cantidad de metros cuadrados, resumen técnico (Resistencia al impacto, Uso recomendado para terrazas), y botón principal "Añadir a Cotización" (`button-primary`).
+> 3. **Sección Complementaria:** Fila con 3 tarjetas de productos recomendados o materiales de fragüe compatibles.
+> 4. **Footer:** Mismo componente global.
 
-- **Superficies planas:** Tarjetas con borde delgado de 1px en `#EDC3A0`[cite: 4].
-- **Elevación ligera (Hover):** Sombra suave `0px 4px 12px rgba(0, 0, 0, 0.08)` al pasar sobre tarjetas y botones principales.
+---
 
-## Shapes
+### Prompt 4: Carrito / Resumen de Cotización — Versión Desktop
 
-- **Botones e Inputs:** Radio moderado de `8px` (`rounded.md`) para transmitir estructura y precisión geométrica.
-- **Etiquetas de Estado:** Radio redondeado de `9999px` (`rounded.full`).
+> **Pantalla:** Carrito / Cotización, versión Desktop. Usa el Design System del proyecto Piedra Viva (`DESIGN.md`).
+> **Objetivo:** Revisar los materiales seleccionados y obtener un cálculo transparente de costos de envío antes de enviar la solicitud final.
+> **Componentes de arriba hacia abajo:**
+> 1. **Navbar:** Mismo componente global.
+> 2. **Encabezado:** Título h1 "Resumen de Cotización".
+> 3. **Layout de 2 Columnas:**
+>    - **Columna Principal:** Tabla con productos agregados (ej: "40 m² Baldosa Microvibrada"), precio unitario, subtotal y opción para eliminar o modificar cantidades.
+>    - **Columna Lateral (Resumen de Costos):** Calculadora aproximada de despacho según comuna seleccionada, desglose del subtotal y botón destacado "Enviar Cotización por WhatsApp" (`button-secondary`).
+> 4. **Footer:** Mismo componente global.
 
-## Components
+---
 
-### Card de Producto (`card-product`)
-- Contiene imagen cuadrada del producto, nombre en `headline-sm`, especificación ($m^2$), precio por unidad y botón "Cotizar este material" (`button-secondary`).
-- **Comportamiento Hover:** Elevación con sombra suave y escalado sutil de la imagen al 102%.
+### Prompt 5: Blog — Versión Desktop
 
-### Botón Principal (`button-primary`)
-- Fondo `#989B85`, texto `#2B2B28`[cite: 4].
-- Usado en los formularios de cotización y llamadas a la acción principales de la Landing Page[cite: 4].
+> **Pantalla:** Blog de Mantención y Consejos, versión Desktop. Usa el Design System del proyecto Piedra Viva (`DESIGN.md`).
+> **Objetivo:** Educar a los clientes sobre cómo cuidar y mantener el pulido de sus pisos para proteger su inversión.
+> **Componentes de arriba hacia abajo:**
+> 1. **Navbar:** Mismo componente global.
+> 2. **Encabezado:** Título h1 "Guías de Cuidado y Mantención de Pisos".
+> 3. **Grilla de Artículos (3 Columnas):** Tarjetas de artículos con imagen, categoría ("Pulido", "Instalación", "Cuidado"), título en `headline-sm` (ej: "Cómo mantener el brillo de tus baldosas Budnik por años"), resumen corto y tiempo estimado de lectura.
+> 4. **Footer:** Mismo componente global.
 
-## Do's and Don'ts
+---
 
-- **Do:** Mantener siempre el fondo `#FBF1EA` para evitar contrastes agresivos sobre blanco puro[cite: 4].
-- **Do:** Usar texto en color Carbón `#2B2B28` sobre los botones de color Verde Oliva `#989B85` para asegurar contraste accesibilidad WCAG AA[cite: 4].
-- **Don't:** No aplicar textos blancos sobre botones primarios o secundarios ya que incumplen el ratio de contraste.
-- **Don't:** No utilizar más de dos familias tipográficas.
+### Prompt 6: Artículo del Blog — Versión Desktop
+
+> **Pantalla:** Lectura de Artículo del Blog, versión Desktop. Usa el Design System del proyecto Piedra Viva (`DESIGN.md`).
+> **Objetivo:** Brindar una lectura detallada sobre un procedimiento técnico de mantenimiento.
+> **Componentes de arriba hacia abajo:**
+> 1. **Navbar:** Mismo componente global.
+> 2. **Encabezado del Artículo:** Categoría, título h1 "Paso a paso para el vitrificado y pulido de baldosas rústicas" y fecha de publicación.
+> 3. **Cuerpo del Texto:** Contenedor de lectura centrado (máximo 800px) con imágenes ilustrativas del proceso de pulido, párrafos descriptivos y recomendaciones de productos.
+> 4. **Caja de Acción Final:** Bloque destacado con fondo `#EDC3A0` invitando a cotizar un servicio profesional de pulido con botón (`button-primary`).
+> 5. **Footer:** Mismo componente global.
+
+---
+
+### Prompt Adicional: Adaptación Responsive Mobile (Todas las pantallas)
+
+> **Instrucción de Adaptabilidad Mobile:**
+> Aplica las siguientes reglas responsive para todas las pantallas anteriores en dispositivos móviles (< 768px):
+> - El Navbar colapsa los enlaces en un menú hamburguesa desplegable superior.
+> - Todas las grillas de 3 o 2 columnas pasan a una sola columna vertical.
+> - Los botones principales (`button-primary` y `button-secondary`) ocupan el 100% del ancho disponible de la pantalla para facilitar la pulsación táctil.
+> - Los tamaños de fuente se ajustan según los tokens móviles de `DESIGN.md` (h1 a 32px, h2 a 24px, h3 a 18px).
+> - El formulario de cotización muestra los campos en columna única con labels visibles encima de cada input.
+> - La galería de proyectos se convierte en carrusel de scroll horizontal o columna única.
