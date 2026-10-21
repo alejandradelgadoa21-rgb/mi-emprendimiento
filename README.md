@@ -4,7 +4,7 @@ Tienda online, blog y servicios para instalación de baldosas Budnik.
 
 
 > Proyecto de la **Evaluación Parcial 02 — Sitios Web y Landing Pages (DUOC)**.
-> Instrucciones y guías: [https://stitch.withgoogle.com/projects/9760726042297367018?pli=1](evaluacion/README.md)
+> Instrucciones y guías: [evaluacion/README.md](evaluacion/README.md)
 
 ## Documentación
 
@@ -31,7 +31,8 @@ Tienda online, blog y servicios para instalación de baldosas Budnik.
 
 ## Prototipo
 
-[Aquí va el link de tu proyecto de Stitch en la Fase 3.
+- **Proyecto en Stitch:** [Prototipo Piedra Viva en Google Stitch](https://stitch.withgoogle.com/projects/9760726042297367018?pli=1)
+- **Documento de QA y capturas:** [docs/11-qa.md](docs/11-qa.md)
 
 ## Uso de IA
 
