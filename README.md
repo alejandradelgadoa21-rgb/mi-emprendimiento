@@ -4,7 +4,7 @@ Tienda online, blog y servicios para instalación de baldosas Budnik.
 
 
 > Proyecto de la **Evaluación Parcial 02 — Sitios Web y Landing Pages (DUOC)**.
-> Instrucciones y guías: [evaluacion/](evaluacion/README.md)
+> Instrucciones y guías: [https://stitch.withgoogle.com/projects/9760726042297367018?pli=1](evaluacion/README.md)
 
 ## Documentación
 
