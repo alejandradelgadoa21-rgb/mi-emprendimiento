@@ -102,6 +102,7 @@ Google (búsqueda: "cómo vitrificar y mantener baldosas micro vibradas")
        Fin: Lead captado
 
 
+```text
 Descuento aplicado según formato del pedido:
 
 Decisión: ¿Qué formato compra el cliente?
@@ -118,6 +119,7 @@ Decisión: ¿Qué formato compra el cliente?
         → Se aplica al subtotal del producto
 
 (La lógica queda definida en tu calculadora del carrito/prototipo)
+```
 
 ---
 
