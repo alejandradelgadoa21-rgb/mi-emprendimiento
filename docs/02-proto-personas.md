@@ -3,8 +3,8 @@
 > Guía: [Proto-persona](../evaluacion/guias/fase-1-requerimientos/02-proto-persona.md)
 
 ## Proto-persona principal
+![Renata - 40 años](img/Renata%2040%20a%C3%B1os%20.png)
 
-![Renata - 40 años](img/Renata%2040%20años.png)
 
 **Renata, 40 años.** Arquitecta / Diseñadora de Interiores.
 
