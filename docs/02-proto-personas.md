@@ -4,7 +4,7 @@
 
 ## Proto-persona principal
 
-![Renata - 40 años](img/Renata%2040%20años.png)
+Renata - 40 años(img/Renata%2040%20años.png)
 
 **Renata, 40 años.** Arquitecta / Diseñadora de Interiores.
 
